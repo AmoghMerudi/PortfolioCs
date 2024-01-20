@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Programming</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Amogh Merudi</h1>
+  <h2>Programming</h2>
+  <div class="link-container">
+    <a href="computer.html">Computers and Algorithms</a>
+    <a href="digitalscholar.html">Digital Scholar</a>
+    <a href="index.html">Index</a>
+  </div>
+
+  <h3>Constants/Variables</h3>
+  <img src="images/Constants and variables.png" alt="Constants and Variables">
+  <p>The Constants or the variables are the heart of the program. They help store the values which help run the code.
+    There is a difference between variables and constants is that the values of variables can be changed but the values
+    of constants cannot be changed. In other words, variables can be updated while constants can not be updated.</p>
+  <p>I have taken the above code from Programming Assignmnet 1, from lines 24-25. In this code, I am declaring a
+    variable named mark, which is taking input from the user. The function
+    'readline.question' is used to take input from the user. Since it is a variable and not a constant, the input can be
+    changed later in the code if required. </p>
+  <hr class="dashed">
+
+  <h3>Conditional (if) Statements</h3>
+  <img src="images/Conditional Statements.png" alt="Conditional statements">
+  <p>Conditional Statements are used to instruct the computer on the decision to make when given some conditions. These
+    decisions are made if and only if the pre-stated conditions are either true or false. One very popular type of
+    conditional Statements are if-else if ladders.</p>
+  <p>I have taken the above code from Programming Assignment 1, from lines 65- 94. In this code, I am making an if-else
+    if ladder which will print the grade of the student based on their
+    average marks. If the average is between 100 and 90, their grade will be E. If the average is between 80 and 90,
+    their
+    grade will be C, and so on. If their average is below 0 or above 100, the conditional statements will return
+    "Invalid Input entered. Check the marks entered previously."</p>
+  <hr class="dashed">
+
+  <h3>Repetition Structures (for/while loops)</h3>
+  <img src="images/Loops.png" alt="Repetiton Structures">
+  <p>Repetition Structures, also known as loops, are used to run a block of code multiple times until a certain
+    condition is met. </p>
+  <p>I have taken the above code from Programming Assignment 1, from lines 50-53. In this code, I am declaring a for
+    loop which will run until the variable 'i' is less than or equal to 'classStrength'. Inside the for loop, I am
+    taking input from the user, i.e., the teacher in this case. The teacher will be entering the average marks of each
+    student in the class. I am then adding all the student marks and storing it in the varianle 'classAvg'. In like 54
+    (which is not visible in the snpshot), I am dividing 'classAvg' by 'classStrength' to find the class average.</p>
+  <hr class="dashed">
+
+  <h3>Built-in Functions</h3>
+  <img src="images/Built-in Functions.png" alt="Built-in Functions">
+  <p>A built-in function is a function that is already available in a programming language. There are various types of 
+    built-in functions in JavaScript which include:  </p>  
+  <ol>
+    <li>String Functions</li>
+    <li>Array Functions</li>
+  </ol>
+  <p>I have taken the code from Programming Assignment 1, from lines 98-101. In this code, I am taking input from the 
+    user, i.e., the teacher. I am storing this input in the variable 'input'. In the last two lines, I am manipulating 
+    the strings so that I can run the rest of the code. In line 100, I am using the string function '.trim()'. This 
+    function removes any whitespaces at the end of the input. In line 101, I am using the string function 
+    '.toUpperCase()'. This function changes all the lower case characters in the string to upper case.</p>
+  <hr class="dashed">
+
+  <h3>Custom Functions</h3>
+  <img src="images/Custom Functions.png" alt="Custom Functions">
+  <p>A custom function is a function which is made by the programmer. This function can only be used in the program it
+     is written in. In other words, each custom function is unique. </p>
+  <p>I have taken the above code from Programming Assignment 1, from lines 11-37. In this code, I am making a function
+     named 'studentMarks' with 2 parameters, i.e., 'studentName' and 'noOfSubjects'. The variable 'studentName' stores 
+     the name of the student while 'noOfSubjects' stores the number of subjects the student has. In the function, first 
+     I am running an error check which will terminate the code if the number of subjects is less than 0. If the number
+      of subjects is not zero, the function runs a while loop which will run until the variable 'i' is equal to the number 
+      of subjects. I am using the loop to take input from the user, i.e., the marks in each subject. At the end of the 
+      function, I am finding the average marks of the student and displaying it. </p>
+  <hr class="dashed">
+
+  <h3>Arrow Functions</h3>
+  <img src="images/Arrow Functions.png" alt="Arrow Functions">
+  <p>Arrow Functions are an compact alternative to the traditional Functions. It has some differences in the syntax and 
+    has limitations.</p>
+  <p>I have taken the above code from Programming Assignment 2, from lines 80-95. In this code, I am making an arror 
+    function named 'decision1' which has no parameters. In the function, if the userInput is not a part of the array,
+     I am asking the user if they would want to add their input to the array. I am them manipulating the string to 
+     make it all upper case and removing any extra whitespace present in the end of the string. I am also running
+      an error check with the help of a while loop which is seeing if the user input is a string or not. If 
+      the user enters any other variable, it will keep asking the user for input until the user enters a string. 
+      This was of error checking can be done if, for some reason, the conventional way of error checking, i.e., 
+      try and catch doesn't work.</p>
+  <hr class="dashed">
+
+  <h3>Function Documentation</h3>
+  <img src="images/Function Documentation.png" alt="Function Documentation">
+  <p>Function Documentation is the written information of a function which includes the description of the function, 
+    a description of the parameters and return values, along with their datatypes.</p>
+  <p>Since my function documentation was not properly done in my asssignments, I have written a different code for
+     this. This block of code can be 'script.js', from lines 11-46. In this code the top part is the function 
+     documentation. You can see that I have included the information of my parameters and return values. This 
+     information contains the name of the parameter or return value, their description and their datatype. 
+     The main purpose of the function is too identify the type of word entered by the user in the parameter
+      'userInput'. </p>
+  <hr class="dashed">
+
+  <h3>Arrays and Modifying Arrays</h3>
+  <img src="images/Arrays.png" alt="Arrays and Modifying Arrays">
+  <p>Arrays are like variables but with multiple values, but all the values must have the same values. Arrays 
+    can be modified by using Array functions.</p>
+  <p>I have taken the above code from Programming Assignment 2, from lines 17-23. In this code, I am declaring 
+    an array 'habitats' which as four string values, i.e., "SAVANNAS", "FLOODPLAIN FORESTS", "GRASSLANDS", 
+    "SWAMPS". I am then sorting the array by using the '.sort()' array function. To print the array, I 
+    am using a for loop. The for loop will go over each index in the sorted array and print them in 
+    alphabetical order. </p>
+  <hr class="dashed">
+
+  <h3>JSON</h3>
+  <img src="images/JSON Object.png" alt="JSON-style Object Notation">
+  <p>JSON stand for JavaScript Object-Notation. It is one of two ways to make an object in JavaScript. They
+     are like arrays but can have different data types.</p>
+     <p></p>
+  <hr class="dashed">
+
+  <h3>External Libraries</h3>
+  <img src="images/Rita.js.png" alt="External Libraries">
+  <p>Insert code and explanation</p>
+  <hr class="dashed">
+  <hr class="dashed">
+
+  <h3>Q & A</h3>
+
+  <h4>Constants and Variables</h4>
+  <p>Insert question and answer</p>
+  <hr class="dashed">
+
+  <h4>If Statements</h4>
+  <p>Insert question and answer</p>
+  <hr class="dashed">
+
+  <h4>Loops</h4>
+  <p>Insert question and answer</p>
+  <hr class="dashed">
+
+  <h4>Functions</h4>
+  <p>Insert question and answer</p>
+  <hr class="dashed">
+
+  <h4>Arrays</h4>
+  <p>Insert question and answer</p>
+  <hr class="dashed">
+
+</body>
+
+</html>
